@@ -1,0 +1,27 @@
+{
+  "name": "teitokuClock",
+  "version": "0.0.0",
+  "description": "提督の懐中時計",
+  "main": "index.js",
+  "scripts": {
+    "test": "testem",
+    "bower": "bower"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/otiai10/teitokuClock.git"
+  },
+  "keywords": [
+    "艦これ"
+  ],
+  "author": "otiai10",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/otiai10/teitokuClock/issues"
+  },
+  "dependencies": {
+    "testem": "0.5.7",
+    "bower": "1.2.7",
+    "typescript": "0.9.1"
+  }
+}
