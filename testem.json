@@ -1,8 +1,10 @@
 {
     "framework" : "mocha+chai",
     "src_files" : [
+      "external/*.js"
     ],
     "serve_files" : [
+      "tests/build/*.js"
     ],
     "launch_in_dev" : [
         "Chrome"

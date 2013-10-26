@@ -21,6 +21,9 @@
   },
   "dependencies": {
     "testem": "0.5.7",
+    "mocha": "*",
+    "chai": "*",
+    "should": "*",
     "bower": "1.2.7",
     "typescript": "0.9.1"
   }
