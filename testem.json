@@ -1,0 +1,10 @@
+{
+    "framework" : "mocha+chai",
+    "src_files" : [
+    ],
+    "serve_files" : [
+    ],
+    "launch_in_dev" : [
+        "Chrome"
+    ]
+}
