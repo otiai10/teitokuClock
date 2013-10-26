@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+
+    "name": "懐中時計",
+    "version": "0.1.0",
+
+    "description": "提督の懐中時計",
+    "icons" : {
+        "48"  : "src/img/icon.48.png",
+        "128" : "src/img/icon.128.png"
+    },
+    "permissions" : [
+        "tabs",
+        "notifications"
+    ],
+    "background" : {
+        "persistent" : true,
+        "scripts" : [
+            "src/js/modules/base.js",
+            "src/js/main.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "src/img/icon.png",
+        "default_popup": "src/html/pop.html"
+    },
+    "options_page" : "src/html/options.html"
+}
