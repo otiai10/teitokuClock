@@ -1,7 +1,7 @@
 Set Up
 ==========
 ```
-npm install -g tsc
+npm install -g typescript
 npm install
 npm run-script bower install
 ```
