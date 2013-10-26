@@ -4,9 +4,6 @@
 
 describe("Sample", () => {
   it("should be true", () => {
-    var sample = true;
-    console.log(sample);
-    console.log("これundefined??=>",sample.should);
-    sample.should.equal(true);
+    true.should.be.true;
   });
 });
