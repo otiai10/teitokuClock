@@ -4,7 +4,7 @@
     ],
     "serve_files" : [
       "external/should/should.js",
-      "tests/build/*.js"
+      "tests/build/**/*.js"
     ],
     "launch_in_dev" : [
         "Chrome"

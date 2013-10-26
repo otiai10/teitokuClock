@@ -10,7 +10,8 @@ npm install
 Run Test
 ==========
 ```
-tsc tests/src/sample-spec.ts --out tests/build/sample-spec.js
+# tsc tests/src/sample-spec.ts --out tests/build/sample-spec.js
+tsc tests/src/**/*.ts --outDir tests/build
 npm run-script test
 ```
 
