@@ -15,5 +15,5 @@ tsc tests/src/**/*.ts --outDir tests/build
 npm run-script test
 ```
 
-### 2013/10/26 14:42
-![tests](http://gyazo.com/2eda04f55f25fb2821d496e989493fc3.png)
+### 2013/10/26 18:15
+![tests](http://gyazo.com/834e35e0fe97b86605b39d1f71889a10.png)
