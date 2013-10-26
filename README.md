@@ -3,7 +3,8 @@ Set Up
 ```
 npm install -g typescript
 npm install
-npm run-script bower install
+# npm run-script bower install なんでこれrun-scriptでいけへんのやろ
+./node_modules/bower/bin/bower install
 ```
 
 Run Test
