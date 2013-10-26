@@ -3,8 +3,11 @@
     "src_files" : [
     ],
     "serve_files" : [
-      "external/should/should.js",
-      "tests/build/**/*.js"
+        "external/jquery/jquery.js",
+        "external/underscore/underscore.js",
+        "external/backbone/backbone.js",
+        "external/should/should.js",
+        "tests/build/**/*.js"
     ],
     "launch_in_dev" : [
         "Chrome"
