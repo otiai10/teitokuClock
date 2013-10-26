@@ -1,9 +1,9 @@
 {
     "framework" : "mocha+chai",
     "src_files" : [
-      "external/**/*.js"
     ],
     "serve_files" : [
+      "external/should/should.js",
       "tests/build/*.js"
     ],
     "launch_in_dev" : [
